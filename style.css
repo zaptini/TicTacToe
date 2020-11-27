@@ -1,0 +1,23 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+div {
+    width:140px !important;
+    height:140px !important;
+    background-color: rgb(218, 5, 5);
+}
+
+body {
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {
+    width:550px;
+    margin-left:40%
+}
