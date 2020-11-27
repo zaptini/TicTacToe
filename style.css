@@ -1,0 +1,28 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+div {
+    width:100px !important;
+    height:100px !important;
+    background-color: rgb(218, 5, 5);
+}
+
+body {
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {
+    width:550px;
+    background-color: white !important;    
+}
+
+section {
+    margin-right:auto;
+    margin-left:auto;
+}
