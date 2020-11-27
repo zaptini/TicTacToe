@@ -63,10 +63,9 @@ function win() {
     ((board1.c3==board1.c6)&&(board1.c6==board1.c9))||
     ((board1.c1==board1.c5)&&(board1.c5==board1.c9))||
     ((board1.c3==board1.c5)&&(board1.c5==board1.c7))){
-    h1.innerText=('uzvara')
+    h1.innerText=('Uzvara!!!')
     alert("Uzvara!!!")
     setTimeout(function () {(window.location.reload())},5000)
-    window.location.reload();
     }
 }
 
